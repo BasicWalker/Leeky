@@ -12,7 +12,7 @@ cd Leeky/
 source ./venv/bin/activate
 ```
 *should return*
->`(venv) pi@raspberrypi:~/git/Leeky/rpiWebServer $ `
+>`(venv) pi@raspberrypi:~/git/Leeky $ `
 
 
 **check python interpreter and pip location**

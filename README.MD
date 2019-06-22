@@ -9,9 +9,12 @@ python3 -m venv ./venv
 cd Leeky/
 source ./venv/bin/activate
 ```
-*should return (venv) on the left of the command line*
+*should return*
+>`(venv) pi@raspberrypi:~/git/Leeky/rpiWebServer $ `
 
-check python interpreter and pip location 
+
+**check python interpreter and pip location**
+
 `which pip3` should return 
 >`/Leeky/venv/bin/pip3`
 

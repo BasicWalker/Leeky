@@ -1,5 +1,3 @@
-This is python project to aid playing as the character Leeky in dungeons and Dragons (DnD). Its purpose is to select random spells based on Leekys level, and to check if the wild-magic effect occurs, and to select the effect if it does.
-
 # Create Virtual Environment using venv
 ```
 cd Leeky/

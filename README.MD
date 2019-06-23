@@ -38,8 +38,8 @@ then input spell level
 >`Input highest spell level available: 3 `
 >
 this should return something like this
->
->`————-Spell————- 
+
+>————-Spell————- 
 >
 >Spell Name: Hellish Rebuke 
 >
@@ -56,7 +56,7 @@ this should return something like this
 >you rolled 0 for wild magic:    
 >
 >extreme! You gain the service of an arcane sword that does not require concentration until your next short or long rest.
-`
+
 ## as a module 
 import using
 `import spellgen` 

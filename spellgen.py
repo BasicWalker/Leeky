@@ -17,7 +17,7 @@ extreme = []
 moderate = []
 nuisance = []
 # collects extreme, moderate, and nuisance effects from wild-magic csv and assign respective lists
-with open('wild_magic.csv', 'r') as csv_file:
+with open('wild_magic.csv', 'rb') as csv_file:
     csv_reader = csv.reader(csv_file)
     next(csv_reader)
     for line in csv_reader:

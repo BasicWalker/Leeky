@@ -1,10 +1,7 @@
 import json
 import random
 import csv
-
-# ----- Spell Generator
-# define spell level availability
-# level = 2
+# -----
 
 # collects specified spell class spells from spells.json and adds them to spell_list
 spell_list = dict()
@@ -19,7 +16,6 @@ with open('spells.json') as json_file:
 extreme = []
 moderate = []
 nuisance = []
-
 # collects extreme, moderate, and nuisance effects from wild-magic csv and assign respective lists
 with open('wild_magic.csv', 'r') as csv_file:
     csv_reader = csv.reader(csv_file)
@@ -34,13 +30,13 @@ def wildmagic(spell_level):
     """
     determines wild magic outcome based on input spell level
     :param spell_level:
-    :return [wild_roll, severity: effect]:
+    :return [wild_roll, str(severity! effect)]:
     """
-    # checks if roll meets wild-magic thresh (d20 - spell_level < 5)
+    # checks if roll meets wild-magic thresh (d20 - spell_level <= 5)
     spell_level_num = int(spell_level)
     d20 = random.randrange(1, 20)
     wild_roll = (d20 - spell_level_num)
-    if wild_roll < 5:
+    if wild_roll <= 5:
         # random 1-20: 1-3/extreme 4-9/moderate, 10-20/nuisance
         severity = random.randrange(1, 20)
         effect_roll = random.randrange(100)

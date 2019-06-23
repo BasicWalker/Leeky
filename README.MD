@@ -47,10 +47,8 @@ import using
 `spellgen.spell(level)` returns a list of
 >`[[wild], spell_name, spell_level, spell_duration, spell_range, spell_desc]`
 
-wild list contains wild magic information as :
+**wild list** contains wild magic information as :
 >`[wild_roll, str(severity: effect)]`
 
-if needed `spellgen.wildmagic(spell_level)` can also be called seperately to returnt the wild list.
+if needed `spellgen.wildmagic(spell_level)` can also be called seperately to return the **wild list**.
 
-wild list contains wild magic information as :
->`[wild_roll, str(severity: effect)]`

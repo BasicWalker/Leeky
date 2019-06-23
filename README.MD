@@ -7,7 +7,10 @@ python3 -m venv ./venv
 # Get into virtual environment (venv)
 ```
 cd Leeky/
+*linux*
 source ./venv/bin/activate
+*windows*
+venv\Scripts\activate
 ```
 *should return*
 >`(venv) pi@raspberrypi:~/git/Leeky $ `

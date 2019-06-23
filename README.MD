@@ -17,12 +17,22 @@ venv\Scripts\activate
 
 
 **check python interpreter and pip location**
-
+*linux*
 `which pip3` should return 
 >`/Leeky/venv/bin/pip3`
 
+*windows*
+`where pip` should return 
+>`\Leeky\venv\Scripts\pip.exe `
+
+*linux*
 `which python` should return 
 >`/Leeky/venv/bin/python`
+
+*windows*
+`where python` should return 
+>`\Leeky\venv\Scripts\python.exe`
+
 
 # Install dependencies
 make sure loaction is set in the `Leeky/` folder and the (venv) is active.

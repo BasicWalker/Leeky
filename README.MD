@@ -79,3 +79,6 @@ import using
 
 if needed `spellgen.wildmagic(spell_level)` can also be called seperately to return the **wild list**.
 
+## discord bot
+the discord bot take the command `!spell [level]` and outputs a formatted spellgen.spell(level) post to the channel where the command was sent
+

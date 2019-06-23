@@ -22,7 +22,8 @@ source ./venv/bin/activate
 >`/Leeky/venv/bin/python`
 
 # Using spellgen.py module
-for standalone use enter the command:
+## for standalone 
+use enter the command:
 `python spellgen.py`
 then input spell level
 >`Input highest spell level available: 3 `
@@ -39,3 +40,17 @@ this should return something like this
 >you rolled 0 for wild magic:                                                                    
 >extreme! You gain the service of an arcane sword that does not require concentration until your next short or long rest.
 `
+## as a module 
+import using
+`import spellgen` 
+
+`spellgen.spell(level)` returns a list of
+>`[[wild], spell_name, spell_level, spell_duration, spell_range, spell_desc]`
+
+wild list contains wild magic information as :
+>`[wild_roll, str(severity: effect)]`
+
+if needed `spellgen.wildmagic(spell_level)` can also be called seperately to returnt the wild list.
+
+wild list contains wild magic information as :
+>`[wild_roll, str(severity: effect)]`

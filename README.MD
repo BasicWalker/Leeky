@@ -17,20 +17,17 @@ venv\Scripts\activate
 
 
 **check python interpreter and pip location**
-*linux*
-`which pip3` should return 
+
+*linux*: `which pip3` should return 
 >`/Leeky/venv/bin/pip3`
 
-*windows*
-`where pip` should return 
+*windows*: `where pip` should return 
 >`\Leeky\venv\Scripts\pip.exe `
 
-*linux*
-`which python` should return 
+*linux*: `which python` should return 
 >`/Leeky/venv/bin/python`
 
-*windows*
-`where python` should return 
+*windows*: `where python` should return 
 >`\Leeky\venv\Scripts\python.exe`
 
 

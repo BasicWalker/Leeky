@@ -52,6 +52,3 @@ async def on_ready():
     print('------')
 
 client.run(Token)
-
-# msg = 'Hello {0.author.mention}'.format(message)
-# # await client.send_message(message.channel, msg)

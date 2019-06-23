@@ -21,6 +21,15 @@ source ./venv/bin/activate
 `which python` should return 
 >`/Leeky/venv/bin/python`
 
+# Install dependencies
+make sure loaction is set in the `Leeky/` folder and the (venv) is active.
+
+run `pip install -r requirements.txt`
+
+**check if dependencies are installed correctly**
+
+`pip list` should return a list of 3rd-party dependencies required for this project
+
 # Using spellgen.py module
 ## for standalone 
 use enter the command:

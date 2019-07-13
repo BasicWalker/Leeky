@@ -80,5 +80,13 @@ import using
 if needed `spellgen.wildmagic(spell_level)` can also be called seperately to return the **wild list**.
 
 ## discord bot
+create a token.txt file with the discord token key
+run `python leekydiscord.py` to activate the bot
+this should return 
+>Logged in as
+>[bot name]
+>[bot id]
+>------   
+
 the discord bot take the command `!spell [level]` and outputs a formatted spellgen.spell(level) post to the channel where the command was sent
 
